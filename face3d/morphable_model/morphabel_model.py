@@ -48,7 +48,7 @@ class  MorphabelModel(object):
         if type == 'zero':
             sp = np.zeros((self.n_shape_para, 1))
         elif type == 'random':
-            sp = np.random.normal(size=(self.n_shape_para, 1))
+            sp = np.random.randn(self.n_shape_para, 1)
             #sp = np.random.rand(self.n_shape_para, 1)*1e04
         return sp
 

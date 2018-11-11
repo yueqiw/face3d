@@ -27,7 +27,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Generative Query Network on Shepard Metzler Example')
 parser.add_argument('--output_dir', type=str, default="output", help='location of output data')
 parser.add_argument('--n', type=int, default=100, help='number of faces')
-parser.add_argument('--workers', type=int, default=4, help='number of workers')
+#parser.add_argument('--workers', type=int, default=4, help='number of workers')
 parser.add_argument('--print_every', type=int, default=10, help='print progress')
 parser.add_argument('--gif', type=bool, default=False, help='whether to create gif (2x time)')
 
